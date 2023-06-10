@@ -50,9 +50,7 @@ class OldDataSeeder extends Seeder
         ];
 
 
-      
-
-
+    
         foreach($job_types as $job_type){
 
             $job_type_create       = new JobType();
@@ -107,16 +105,6 @@ class OldDataSeeder extends Seeder
           
         }
 
-
-
-
         DB::commit();
-
-
-
-       
-
-           
-        
     }
 }
