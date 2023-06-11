@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use App\Models\Country;
 class LoginController extends Controller
 {
      public function login(){
@@ -14,7 +15,9 @@ class LoginController extends Controller
       } 
       
       else {
-         return view('login.index');
+
+        $data['countries'] =Country::get();
+         return view('login.index',$data);
       }
 
      }
@@ -34,7 +37,7 @@ class LoginController extends Controller
 
         if ($user_attempt) {
             auth()->login($user_attempt);
-            return redirect()->route('job.index');
+            return redirect()->route('job.index')->with('success','Login Successfull');
 
         } else {
             return redirect()->route('login')->with('error', 'Invalid credentials');
