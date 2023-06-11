@@ -13,4 +13,6 @@
 <link  rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 <link  rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
 <link  rel="stylesheet" type="text/css" href="{{ asset('assets/css/toastr.css') }} " >
+<link  rel="stylesheet" type="text/css" href="{{ asset('assets/css/custom/style.css') }}">
+
 <script src="{{ asset('assets/js/toastr.js')}}" ></script>

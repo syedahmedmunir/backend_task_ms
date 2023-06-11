@@ -2,7 +2,7 @@
     <div class="container">
       <div class="header-data">
         <div class="logo">
-            <a href="index-2.html" title=""><img src="{{ asset('assets/images/logo.png') }}"></a>
+            <a href="" title=""><img src="{{ asset('assets/images/logo.png') }}"></a>
         </div>
         <div class="search-bar"></div>
         <nav>

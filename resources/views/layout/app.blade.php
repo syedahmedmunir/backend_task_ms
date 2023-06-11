@@ -30,6 +30,8 @@
     @include('layout.footer')
 
 
+    @include('layout.footer_scripts')
+
     @include('layout.messages')
     
 </body>
