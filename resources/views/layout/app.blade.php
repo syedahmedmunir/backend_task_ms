@@ -28,6 +28,9 @@
     </div>
 
     @include('layout.footer')
+
+
+    @include('layout.messages')
     
 </body>
 </html>
