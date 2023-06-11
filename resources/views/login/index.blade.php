@@ -11,7 +11,7 @@
     @include('layout.header')
 
 </head>
-<body class="sign-in">
+<body class="sign-in" oncontextmenu="return false;">
     <div class="wrapper">
         <div class="sign-in-page">
             <div class="signin-popup">

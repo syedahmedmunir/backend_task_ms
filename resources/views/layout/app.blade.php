@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false;">
 
     <div class="wrapper">
 
